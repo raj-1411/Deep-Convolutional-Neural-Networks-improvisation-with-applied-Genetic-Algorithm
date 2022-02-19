@@ -65,7 +65,7 @@ The Python packages which are in use in this project are  `matplotlib`, `numpy`,
                                
 - Where the folders `train` and `val` contain the folders for different classes of histopathological images of respective type of breast tissue tumor in `.jpg`/`.png` format.
 
- ### Training and Evaluating different CNN models :
+ ### Training and Evaluation :
       usage: main.py [-h] [-data DATA_PATH] [-classes NUM_CLASSES] [-ext EXT_TYPE] [-classif CLASSIF_TYPE]
 
       Application of Genetic Algorithm
