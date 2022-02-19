@@ -3,7 +3,7 @@
 Performed feature extraction on `pre-trained` and `fine-tuned` Convolution Neural Networks for `enhanced` accuracy on dataset of BreakHis through application of `novel Genetic Algorithm`
 
 ## Project Description
-This is a python-based project with the motivation of `enhanced` accuracy on predictions made by highly complex and `state-of-the-art` CNNs with the use of `Genetic Algorithm`. For this project popular `BreakHis` dataset was employed to verify feature extraction, classifying between benign and malignant types of tumors detected under histopathological images of affected tissue. For feature extraction, three Convolution Neural Networks are used with their `pre-final` layer modified for the need of the objective. As the models get trained and evaluated on different datasets, the features with the best accuracy on validation set is retained for further operation. The final features undergo different levels in Genetic Algorithm where the `non-redundant` and efficient features are selected for prediction. These filtered features procure significant increment in accuracy on the validation dataset.
+This is a python-based project with a motivation to achieve `enhanced` accuracy on predictions made by highly complex and `state-of-the-art` CNNs with the use of `Genetic Algorithm`. For this project, popular `BreakHis` dataset was employed to verify feature extraction, classifying between benign and malignant types of tumors detected under histopathological images of affected tissue. For feature extraction, three Convolution Neural Networks are used with their `pre-final` layer modified for the need of the objective. As the models get trained and evaluated on respective datasets, features with the best accuracy on validation set is retained for further operation down the line. The final features undergo different levels in Genetic Algorithm to eliminate `redundant` and 'uncanny' features from the total feature space. The filtered features now procure significant increment in accuracy on the validation dataset.
 
 ## Dataset description
 The Breast Cancer Histopathological Image Classification (BreakHis) is  composed of `9,109` microscopic images of breast tumor tissue collected from 82 patients using different magnifying factors (40X, 100X, 200X, and 400X).  To date, it contains `2,480`  benign and `5,429` malignant samples (700X460 pixels, 3-channel RGB, 8-bit depth in each channel, PNG format).  
@@ -11,12 +11,12 @@ The dataset is available at:
 https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/
 
 ## Classes of Division
-In this project, the histopathological image samples of human breast tissue has been classified into two categories, namely:  
+In this project, the histopathological image samples of human breast tissue have been classified into two categories  
 - `Benign`  
 - `Malignant`  
 
 ## Convolution Neural Network models used
-Three CNN models may be applied one at a time on the dataset for feature extraction, namely:  
+Three CNN models may be applied one at a time on the dataset for feature extraction 
 -	`Visual Geometry Group (VGG-19)`  
 -	`ResNet-18`  
 -	`GoogLeNet` 
@@ -25,7 +25,7 @@ Three CNN models may be applied one at a time on the dataset for feature extract
 - To be added
 
 ## Accuracy Plots Over Generations
-Different extractors paired with MLP classifer for GA gives three plots of accuracy vs generations:
+Different extractors paired with MLP classifer for GA classification gives three plots of accuracy vs generations:
 Epoch-`10`
 Generations-`10`
 -     GoogLeNet with MLP
