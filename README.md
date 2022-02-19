@@ -21,7 +21,7 @@ Three CNN models may be applied one at a time on the dataset for feature extract
 -	`ResNet-18`  
 -	`GoogLeNet` 
 
-## Gentic Algorithm Visualization:
+## Genetic Algorithm Visualization:
 - To be added
 
 ## Accuracy Plots Over Generations
