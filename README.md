@@ -87,9 +87,9 @@ The Python packages which are in use in this project are  `matplotlib`, `numpy`,
       
   ### Specific tokens :
 
-          GoogLeNet: 'googlenet'
-          VGG-19: 'vgg'
-          ResNet-18: 'resnet'
-          SVM: 'SVM'
-          MLP: 'MLP'
-          KNN: 'KNN'          
+      GoogLeNet: 'googlenet'
+      VGG-19: 'vgg'
+      ResNet-18: 'resnet'
+      SVM: 'SVM'
+      MLP: 'MLP'
+      KNN: 'KNN'          
