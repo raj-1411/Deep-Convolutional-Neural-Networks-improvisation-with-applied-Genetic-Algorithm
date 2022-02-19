@@ -1,7 +1,6 @@
 from Feature_extractors import Extractor
 from GA import base
 import argparse
-import os
 
 
 
@@ -38,5 +37,3 @@ print('\n'*4)
 print('Starting Genetic Algorithm...')
 print('\n'*4)
 base.algo(arr_tr, arr_val, classif)
-
-
