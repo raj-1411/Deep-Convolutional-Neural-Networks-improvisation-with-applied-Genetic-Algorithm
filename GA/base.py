@@ -48,7 +48,7 @@ def algo(arr_train, arr_val, classif):
     print('\n')
     print("Best candidate solution has accuracy of {:.4f}".format(best_acc))
     print('\n')
-    print("Number of features extracted by GA :",np.where(best_solution==1)[0].shape[0])
+    print("Number of features selected by GA :",np.where(best_solution==1)[0].shape[0])
     print('\n')
     print("Feature indices that were exracted are: ",np.where(best_solution==1)[0])
     print('\n')
