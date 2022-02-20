@@ -22,7 +22,8 @@ Three CNN models may be applied one at a time on the dataset for feature extract
 -	`GoogLeNet` 
 
 ## Genetic Algorithm Visualization:
-- To be added
+-     GA roadmap
+     ![ppt](https://user-images.githubusercontent.com/89198752/154832677-9dd2f3a4-a583-4491-8abb-923abc1249a5.jpeg)
 
 ## Accuracy Plots Over Generations
 Different extractors paired with MLP classifer for GA classification gives three plots of accuracy vs generations:
