@@ -84,7 +84,7 @@ The Python packages which are in use in this project are  `matplotlib`, `numpy`,
         
   ### Run the following for training and validation :
   
-      python main.py -data data -classes 2 -ext resnet -classif MLP
+      python main.py -data data -classes n -ext resnet -classif MLP
       
   ### Specific tokens :
 
