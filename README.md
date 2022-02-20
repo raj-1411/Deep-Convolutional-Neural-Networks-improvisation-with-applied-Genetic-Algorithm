@@ -21,6 +21,12 @@ Three CNN models may be applied one at a time on the dataset for feature extract
 -	`ResNet-18`  
 -	`GoogLeNet` 
 
+## Classifiers used
+Three types of classifiers are employed for fitness evaluation
+-	`Supoort Vector Machines (kernel<--rbf)`  
+-	`K Nearest Neighbours (neighbours<--2)`  
+-	`Multi-layer Perceptron` 
+
 ## Genetic Algorithm Visualization:
 -     GA roadmap
      ![ppt](https://user-images.githubusercontent.com/89198752/154832677-9dd2f3a4-a583-4491-8abb-923abc1249a5.jpeg)
