@@ -45,7 +45,7 @@ Generations-`10`
 ## Dependencies
 Since the entire project is based on `Python` programming language, it is necessary to have Python installed in the system. It is recommended to use Python with version `>=3.9`.
 The Python packages which are in use in this project are  `matplotlib`, `numpy`, `pandas`,`scikit-learn`, `torch` and `torchvision`. All these dependencies can be installed just by the following command line argument
-- pip install `requirements.txt`
+- `pip install requirements.txt`
 
 ## Code implementation
  ### Data paths :
